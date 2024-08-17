@@ -1,0 +1,43 @@
+2.	Cálculo de Consumo de Energía
+
+Un electrodoméstico tiene una potencia de 1500 vatios y 
+se usa durante 3 horas al día. Diseña un programa que 
+calcule el consumo de energía en kilovatios-hora (kWh)
+al mes, suponiendo que el mes tiene 30 días.
+
+ALGORITMO PARA CALCULAR EL CONSUMO DE ENERGIA EN (kWh)
+
+1. Iniciar
+2. Declarar la potencia del electrodoméstico en vatios
+3. Declarar el tiempo de uso diario en horas
+4. Declarar el número de días del mes
+5. Calcular el consumo diario en kWh: consumo_diario = potencia * tiempo_diario / 1000 
+6. Calcular el consumo mensual en kWh: consumo_mensual = consumo_diario * días_mes
+7. Mostrar el consumo mensual en kWh
+8. Finalizar
+
+PSEUDOCODIGO:
+
+Program calcularConsumoEnergia
+Start
+// Programa para calcular el consumo de energía de un electrodoméstico en kWh al mes
+
+
+// Declaración de variables
+Declare Float potencia = 1500 // Potencia en vatios
+Declare Float tiempo_diario = 3 // Tiempo de uso diario en horas
+Declare Integer dias_mes = 30 // Número de días del mes
+Declare Float consumo_diario
+Declare Float consumo_mensual
+
+// Cálculo del consumo diario en kWh
+Set consumo_diario = (potencia * tiempo_diario) / 1000
+
+// Cálculo del consumo mensual en kWh
+Set consumo_mensual = consumo_diario * dias_mes
+
+// Presentación de resultado
+Display "El consumo mensual de energía es ", consumo_mensual, " kWh"
+
+End
+

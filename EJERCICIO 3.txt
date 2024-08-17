@@ -1,0 +1,74 @@
+3.	Programa de Compra y Venta de Equipos Electrónicos
+
+El mes pasado, Ana compró un equipo electrónico. Aquí están los detalles de la compra:
+•	El número de equipos que Ana compró fue de 50.
+•	El precio de cada equipo fue de $150.
+•	Ana pagó a su proveedor una comisión del 3% sobre el monto total de la compra. Dos semanas después, Ana vendió los equipos. Aquí están los detalles de la venta:
+•	El número de equipos que Ana vendió fue de 50.
+•	El precio de venta de cada equipo fue de $175.
+•	Ana pagó a su proveedor una comisión del 3% sobre el monto total de la venta. Diseña un programa que muestre la siguiente información:
+•	El monto total pagado por la compra de los equipos.
+•	El monto de la comisión pagada al proveedor en la compra.
+•	El monto total recibido por la venta de los equipos.
+•	El monto de la comisión pagada al proveedor en la venta.
+•	¿Ganó Ana dinero o perdió dinero? Muestra la cantidad de ganancia o pérdida después de la venta, considerando todos los costos y comisiones.
+
+ALGORITMO PARA PROGRAMA DE COMPRA Y VENTA DE EQUIPOS ELECTRONICOS
+
+1. Iniciar
+2. Declarar el número de equipos comprados y vendidos
+3. Declarar el precio de compra y de venta por equipo
+4. Declarar la comisión del proveedor
+5. Calcular el monto total pagado por la compra
+6. Calcular la comisión pagada al proveedor en la compra
+7. Calcular el monto total recibido por la venta
+8. Calcular la comisión pagada al proveedor en la venta
+9. Calcular la ganancia o pérdida después de la venta
+10. Mostrar el monto total pagado por la compra
+11. Mostrar el monto de la comisión pagada al proveedor en la compra
+12. Mostrar el monto total recibido por la venta
+13. Mostrar el monto de la comisión pagada al proveedor en la venta
+14. Mostrar la ganancia o pérdida después de la venta
+15. Finalizar
+
+PSEUDOCODIGO:
+
+Program compraVentaEquipos
+Start
+// Programa para calcular la compra y venta de equipos electrónicos
+
+// Declaración de variables
+Declare Integercantidad_comprada=50
+Declare Integercantidad_vendida=50
+Declare Floatprecio_compra=150
+Declare Floatprecio_venta=175
+Declare Floatcomision_proveedor=0.03
+Declare Float monto_compra
+Declare Float comision_compra
+Declare Float monto_venta
+Declare Float comision_venta
+Declare Float ganancia_perdida
+
+// Cálculo del monto total pagado por la compra
+Setmonto_compra= cantidad_comprada * precio_compra
+
+// Cálculo de la comisión pagada al proveedor en la compra
+Setcomision_compra= monto_compra * comision_proveedor
+
+// Cálculo del monto total recibido por la venta
+Setmonto_venta= cantidad_vendida * precio_venta
+
+// Cálculo de la comisión pagada al proveedor en la venta
+Setcomision_venta= monto_venta * comision_proveedor
+
+// Cálculo de la ganancia o pérdida después de la venta
+Setganancia_perdida= (monto_venta - comision_venta) - (monto_compra + comision_compra)
+
+// Presentación de resultados
+Display "Monto total pagado por la compra: ", monto_compra
+Display "Comisión pagada al proveedor en la compra: ", comision_compra
+Display "Monto total recibido por la venta: ", monto_venta
+Display "Comisión pagada al proveedor en la venta: ", comision_venta
+Display "Ganancia o pérdida después de la venta: ", ganancia_perdida
+
+End

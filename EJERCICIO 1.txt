@@ -1,0 +1,54 @@
+resuelva los siguientes problemas utilizando algoritmo, pseudocódigo y diagrama de flujo.
+
+1.	Información de un Libro
+
+Diseña un programa que muestre la siguiente información sobre un libro:
+
+•	Título del libro
+•	Autor del libro
+•	Precio del libro
+•	Año de publicación
+
+ALGORITMO PARA MOSTRAR LA INFORMACION DE UN LIBRO
+
+1. Iniciar
+2. Obtener el título del libro
+3. Obtener el autor del libro
+4. Obtener el precio del libro
+5. Obtener el año de publicación del libro
+6. Mostrar el título del libro
+7. Mostrar el autor del libro
+8. Mostrar el precio del libro
+9. Mostrar el año de publicación del libro
+10. Finalizar
+
+PSEUDOCODIGO:
+
+program mostrarInformacionLibro
+Start
+// Programa para mostrar informacion de un libro
+
+// Declaración de variables
+Declare String titulo
+Declare String autor
+Declare Float precio
+Declare Integer anoPublicacion
+
+// Obtención de datos
+
+Display "Ingrese el título del libro: "
+Input titulo
+Display "Ingrese el autor del libro: "
+Input autor
+Display "Ingrese el precio del libro: "
+Input precio
+Display "Ingrese el año de publicación del libro: "
+Input anoPublicacion
+
+// Presentación de la información
+Display "Título del libro: ", titulo
+Display "Autor del libro: ", autor
+Display "Precio del libro: ", precio
+Display "Año de publicación del libro: ", anoPublicacion
+
+End
